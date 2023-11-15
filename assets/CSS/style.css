@@ -1,14 +1,3 @@
-/*IMAGENS*/
-
-.logo {
-    width: 248px;
-    height: 214px;
-}
-
-
-/*---------------------*/
-
-
 /*FONTES*/
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto&display=swap');
@@ -35,10 +24,24 @@ h1 {
 p {
     color: #FFF;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+
+
+/*---------------------*/
+
+/*HEADER*/
+
+/*IMAGENS*/
+
+.logo {
+    width: 248px;
+    height: 214px;
 }
 
 /*---------------------*/
@@ -46,7 +49,6 @@ p {
 /*BANNER*/
 
 .banner {
-    
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%);
 }
 
@@ -55,9 +57,19 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    
 }
 
 button {
+    color: #31A8DD;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.36px;
     display: flex;
     width: 326px;
     padding: 19px 91px;
@@ -69,14 +81,61 @@ button {
 
 /*---------------------*/
 
-/*TEXTO*/
-
-/*---------------------*/
-
-/*BACKGROUND*/
+/*MAIN*/
 
 main {
     background: #000;
 }
 
+.modules-list {
+
+}
+
+.module {
+    
+}
+
+#course-content {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#course-content h2 {
+    color: #33A8DB;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+}
+
+#course-content p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#transform-world {
+
+}
+
+#professional-challenges {
+
+}
+
 /*---------------------*/
+
+/*FOOTER*/
+
+footer {
+    border-top: 1px solid #33A8DB;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+}
