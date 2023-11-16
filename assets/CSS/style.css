@@ -1,37 +1,13 @@
 /*FONTES*/
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;900&family=Roboto&display=swap');
+
+/*---------------------*/
 
 * {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-
-.banner-content h1 {
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #33A8DB, #1472B7;
-}
-
-.banner-content p {
-    color: #FFF;
-    text-align: justify;
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-
 
 /*---------------------*/
 
@@ -68,6 +44,30 @@
     align-items: center;
     gap: 16px;
     background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+}
+
+.banner-content h1 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #33A8DB, #1472B7;
+}
+
+.banner-content p {
+    color: #FFF;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 button {
@@ -157,18 +157,29 @@ main {
     line-height: normal;
 }
 
+#transform-world {
+    background-image: url('/assets/images/woman-code.png');
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
 #transform-world p{
     color: #FFF;
     text-shadow: 3px 2px 0px #33A8DB;
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    text-transform: lowercase;
+    text-align: left;
+    line-height: 1.4;
+    padding-left: 20px;
 }
 
 #professional-challenges {
-    background-image: url('assets/images/professional-challenges.png');
+    display: flex;
 }
 
 #professional-challenges h2{
