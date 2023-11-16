@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;900&family=Roboto&display=swap');
 
+
 /*---------------------*/
 
 * {
@@ -13,6 +14,9 @@
 
 /*HEADER*/
 
+header {
+    background: linear-gradient(0deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+}
 
 /*IMAGENS*/
 
@@ -34,6 +38,7 @@
 /*BANNER*/
 
 .banner {
+    padding-top: 9rem;
     object-fit: scale-down;
     background-image: url('/assets/images/banner.png');
 }
@@ -44,6 +49,7 @@
     align-items: center;
     gap: 16px;
     background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+    border-bottom: 1px solid #33A8DB;
 }
 
 .banner-content h1 {
@@ -68,6 +74,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 497px;
 }
 
 button {
@@ -88,6 +95,7 @@ button {
     gap: 31px;
     border: 2px solid #3BA1CD;
     background-color: transparent;
+    margin-bottom: 3rem;
 }
 
 /*---------------------*/
@@ -138,13 +146,15 @@ main {
 }
 
 #course-content h2 {
+    padding-top: 2rem;
     color: #33A8DB;
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     line-height: normal;
     letter-spacing: 6.08px;
+    text-transform: uppercase;
 }
 
 #course-content p {
@@ -174,8 +184,10 @@ main {
     line-height: normal;
     text-transform: lowercase;
     text-align: left;
+    padding-left: 5rem;
+    width: 183px;
     line-height: 1.4;
-    padding-left: 20px;
+    padding-top: 7rem;
 }
 
 #professional-challenges {
