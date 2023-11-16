@@ -7,7 +7,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+.banner-content h1 {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
@@ -19,12 +19,11 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #33A8DB, #1472B7;
-    text-align: justify;
 }
 
-p {
+.banner-content p {
     color: #FFF;
-    text-align: center;
+    text-align: justify;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -38,32 +37,37 @@ p {
 
 /*HEADER*/
 
+
 /*IMAGENS*/
 
 .logo {
     width: 248px;
-    height: 214px;
+    height: 228px;
+    border-radius: 600px;
+    background: rgba(0, 0, 0, 0.20);
 }
 
 .dio-logo {
     align-items: center;
 }
 
+
+
 /*---------------------*/
 
 /*BANNER*/
 
 .banner {
-    
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%);
+    object-fit: scale-down;
+    background-image: url('/assets/images/banner.png');
 }
 
 .banner-content {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
 }
 
 button {
@@ -83,6 +87,7 @@ button {
     align-items: center;
     gap: 31px;
     border: 2px solid #3BA1CD;
+    background-color: transparent;
 }
 
 /*---------------------*/
@@ -91,6 +96,7 @@ button {
 
 body {
     background-color: #050505;
+    margin: 0;
 }
 
 /*---------------------*/
@@ -159,6 +165,10 @@ main {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+}
+
+#professional-challenges {
+    background-image: url('assets/images/professional-challenges.png');
 }
 
 #professional-challenges h2{
